@@ -1,0 +1,213 @@
+
+/********************************************************
+*********************************************************
+                || General Styles ||
+*********************************************************
+********************************************************/
+
+html{
+
+    background:#D0E9DD;
+    color:#4F4F4F;
+}
+img{
+    max-width:70%;
+    display: block;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    width:80%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+      color:#4F4F4F;   
+}
+a:hover{
+color:#6EE8AE;
+}
+h2 , p{
+    
+    text-align: center;    
+}
+p{
+   
+    width:75%;
+    display: block;
+    margin: auto;
+
+}
+header li, .contact li ,footer li{
+    padding:10px;
+    position: relative;
+    margin: 10px auto;
+    border-radius: 2px;
+    width: 100%;
+    margin-left:-30px;
+}
+header li {
+ background:#fafafa;
+}
+/********************************************************
+/********************************************************
+*********************************************************
+                || Header Styles ||
+*********************************************************
+********************************************************/
+header{
+    background: #E8EAE9;
+}
+header h2{
+    padding:10px;
+    padding-left: 20px;
+    }
+header p{
+   padding:20px;
+}
+/********************************************************
+*********************************************************
+                || Portfolio Styles ||
+*********************************************************
+********************************************************/
+.Portfolio img{
+    max-width:94%;
+}
+.Portfolio p {
+  padding-bottom: 45px;
+}
+/********************************************************
+*********************************************************
+                || Contact Styles ||
+*********************************************************
+********************************************************/
+.contact{
+padding-bottom: 15px;
+}
+/********************************************************
+*********************************************************
+                || Footer Styles ||
+*********************************************************
+********************************************************/
+footer{
+    padding:15px 0px;
+    width:90%;
+    margin:auto;
+    margin-top:-10px;
+    border-top: solid 1px #ccc;
+}
+footer ul{
+    width:100%;
+    margin-left:-6%
+}
+footer li{
+    width:115px;
+    display: inline-block;  
+}
+footer li:nth-child(1){ 
+    left:-65px;
+}
+footer :nth-child(2){  
+    right:-65px;
+}
+.large_footer{
+    display: none;
+}
+/********************************************************
+*********************************************************
+                    || @Media 768 Pixels ||
+*********************************************************
+********************************************************/
+@media only screen and (min-width:769px){
+    html , header li, .contact li, footer li{
+         background: #E8EAE9;
+}
+    header {
+        height:55%;
+}
+    header li{
+        display: inline-block;
+        width:200px
+}
+    header img{
+        float:right;
+        margin-right:5%;
+        width:300px;
+}
+    header p{
+        position: relative;
+        right:50px;
+        top:25px;  
+          min-width:300px;
+}
+    main{
+clear:both;
+}
+    footer{
+        height: 20px;
+}
+    .Portfolio{
+        display:inline-flex;
+        flex-wrap: wrap;
+        background:#D0E9DD;
+}
+    .item{
+        width:49%
+    }
+    .portfolio h2:nth-child(1){ 
+        width:100%;
+    }
+    .contact p {
+        width:40%;
+}
+    .mobile_footer{
+        display: none;
+    }
+    .large_footer{
+        display: inherit;
+}
+    .large_footer p{
+       float:right;
+        text-align: right;
+    }
+    .large_footer p:nth-of-type(1){
+        float:left;
+        width:100px;
+}
+}
+/********************************************************
+*********************************************************
+                    || @Media 1024 Pixels ||
+*********************************************************
+********************************************************/
+@media only screen and (min-width:1024px){
+    header p{   
+       width:800px;
+        top:70px;
+}
+    header img{
+       width:400px;
+        margin-right: 100px;  
+}
+    .header-nav{
+       float:right;
+        max-width:600px
+}
+    header li{
+        float:;
+        margin-top:27px;
+}
+    header h2{
+        float:left;
+    }
+    .item{
+        width:33%; 
+        margin:auto;
+    }
+    .profile_intro{
+        clear:both;
+    }
+}
+
+
