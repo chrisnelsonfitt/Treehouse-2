@@ -57,7 +57,7 @@ header li {
 *********************************************************
 ********************************************************/
 header{
-    background: #E8EAE9;
+    
 }
 header h2{
     padding:10px;
@@ -71,12 +71,19 @@ header p{
                 || Portfolio Styles ||
 *********************************************************
 ********************************************************/
+.Portfolio{
+background: #E8EAE9;
+}
+.Portfolio h2:nth-child(1){
+        width:100%;
+}
 .Portfolio img{
     max-width:94%;
 }
 .Portfolio p {
   padding-bottom: 45px;
 }
+
 /********************************************************
 *********************************************************
                 || Contact Styles ||
@@ -154,9 +161,6 @@ clear:both;
 }
     .item{
         width:49%
-    }
-    .portfolio h2:nth-child(1){ 
-        width:100%;
     }
     .contact p {
         width:40%;
