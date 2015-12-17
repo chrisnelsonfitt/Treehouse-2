@@ -106,18 +106,23 @@ footer{
 }
 footer ul{
     width:100%;
-    margin-left:-6%
 }
 footer li{
-    width:115px;
+    width:110px;
     display: inline-block;  
 }
-footer li:nth-child(1){ 
-    left:-65px;
+.mobile_footer{
+    width:85%;
+    float: left;
 }
-footer :nth-child(2){  
-    right:-65px;
+.mobile_footer li:nth-child(1){
+float:left;
 }
+.mobile_footer li:last-child{
+float:right;
+}
+
+
 .large_footer{
     display: none;
 }
@@ -126,7 +131,7 @@ footer :nth-child(2){
                     || @Media 768 Pixels ||
 *********************************************************
 ********************************************************/
-@media (min-width:769px){
+@media (min-width:768px){
     html , header li, .contact li, footer li{
          background: #E8EAE9;
 }
